@@ -20,3 +20,7 @@ iex(7)> colors = [{:primary, "red"}, {:secondary, "blue"}]
 [primary: "red", secondary: "blue"]
 iex(8)> colors[:primary]
 "red"
+
+# Pass reference to a function
+Passing the reference to Enum.map of mirror_row that takes just one input
+Enum.map(&mirror_row/1)
